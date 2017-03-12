@@ -1,4 +1,4 @@
-package priority.queue.heap.util;
+package heap.util;
 
 public class Node <E, T extends Comparable<T>> {
 

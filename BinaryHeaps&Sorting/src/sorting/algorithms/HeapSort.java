@@ -1,9 +1,10 @@
-package sorting;
+package sorting.algorithms;
 
 import java.util.ArrayList;
 
-import priority.queue.heap.MaxHeap;
-import priority.queue.heap.util.Node;
+import heap.MaxHeap;
+import heap.util.Node;
+import sorting.util.SortStrategy;
 
 public class HeapSort <T extends Comparable<T>> extends SortStrategy<T> {
 
@@ -17,9 +18,10 @@ public class HeapSort <T extends Comparable<T>> extends SortStrategy<T> {
 		nums.add(4);
 		nums.add(18);
 		nums.add(5);
-		HeapSort sort = new HeapSort();
-		System.out.println(sort.sort(nums));
+//		HeapSort<Integer> sort = new HeapSort<>();
+//		System.out.println(sort.sort(nums));
 	}
+	
 	@Override
 	public ArrayList<T> sort(ArrayList<T> unsortedList) {
 		MaxHeap<T, T> maxHeap = new MaxHeap<>();

@@ -1,7 +1,8 @@
-package priority.queue.heap;
+package heap;
 
 import java.util.ArrayList;
-import priority.queue.heap.util.Node;
+
+import heap.util.Node;
 
 public abstract class Heap <E, T extends Comparable<T>>  {
 

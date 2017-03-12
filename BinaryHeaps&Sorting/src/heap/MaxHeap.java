@@ -1,8 +1,8 @@
-package priority.queue.heap;
+package heap;
 
 import java.util.ArrayList;
 
-import priority.queue.heap.util.Node;
+import heap.util.Node;
 
 public class MaxHeap <E, T extends Comparable<T>> extends Heap<E, T> {
 	

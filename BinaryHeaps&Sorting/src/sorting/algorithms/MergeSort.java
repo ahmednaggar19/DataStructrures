@@ -1,6 +1,8 @@
-package sorting;
+package sorting.algorithms;
 
 import java.util.ArrayList;
+
+import sorting.util.SortStrategy;
 
 public class MergeSort<T extends Comparable<T>> extends SortStrategy <T>{
 

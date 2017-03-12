@@ -1,7 +1,9 @@
-package sorting;
+package sorting.algorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
+import sorting.util.SortStrategy;
 
 public class QuickSort <T extends Comparable<T>> extends SortStrategy<T> {
 
